@@ -1,0 +1,17 @@
+.dashboard-container {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    width: 400px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+}
+
+#statistics {
+    padding: 10px;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+}
