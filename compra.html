@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compra do Curso</title>
+    <link rel="stylesheet" href="css/compra.css">
+</head>
+<body>
+    <div class="compra-container">
+        <h2>Compra do Curso</h2>
+        <form id="paymentForm">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="card">Número do Cartão:</label>
+            <input type="text" id="card" name="card" required>
+
+            <label for="expiry">Data de Validade:</label>
+            <input type="text" id="expiry" name="expiry" placeholder="MM/AA" required>
+
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" required>
+
+            <label for="amount">Valor:</label>
+            <input type="text" id="amount" name="amount" value="R$ 199,99" readonly>
+
+            <button type="submit">Realizar Pagamento</button>
+        </form>
+    </div>
+
+    <script src="js/compra.js"></script>
+</body>
+</html>

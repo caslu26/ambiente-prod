@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Administração</title>
+    <link rel="stylesheet" href="css/admin.css">
+</head>
+<body>
+    <div class="admin-container">
+        <h2>Administração de Vídeos</h2>
+        <form id="uploadForm">
+            <label for="module">Módulo:</label>
+            <input type="text" id="module" name="module" required>
+
+            <label for="title">Título do Vídeo:</label>
+            <input type="text" id="title" name="title" required>
+
+            <label for="url">URL do Vídeo:</label>
+            <input type="text" id="url" name="url" required>
+
+            <button type="submit">Enviar Vídeo</button>
+        </form>
+
+        <h3>Estatísticas de Visualização</h3>
+        <div id="stats"></div>
+    </div>
+    <script src="ambiente-prod/js/admin.js"></script>
+</body>
+</html>
